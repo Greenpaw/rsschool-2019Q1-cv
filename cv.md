@@ -36,12 +36,12 @@ My pet-projects:
 
 _Education:_
 
-    1. Perm aviation college;
-    1. Perm National Research Polytechnic University;
-    1. Udemy course: 'The Web Developer Bootcamp';
-    1. React.js: https://learn.javascript.ru/screencast/react;
-    1. VUE.js: https://scrimba.com/p/pXKqta/czPNaUr;
-    1.
+1. Perm aviation college;
+1. Perm National Research Polytechnic University;
+1. Udemy course: 'The Web Developer Bootcamp';
+1. React.js: https://learn.javascript.ru/screencast/react;
+1. VUE.js: https://scrimba.com/p/pXKqta/czPNaUr;
+    
 
 _English level:_
 
