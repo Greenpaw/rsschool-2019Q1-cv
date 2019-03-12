@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Summary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/main.css">
+</head>
+<body>
+    <div class="main">
+    <hr>
+    <div class="photo"><img class="photo" src="assets/Foto-Esenina-14.jpg" width="150" height="202" alt="photo"></div>
+    <h2>Dmitriy Boronnikov</h2>
+    <hr>
+    <h3>Contacts:</h3>
+    <p>e-mail: slooowparasite@gmail.com, phone: +7-909-113-09-69</p> 
+    <br>
+    <h3>Summary:</h3> 
+    <br>
+    <em>about:</em>
+    <p>  Hello! I want to become a front-end developer because it’s very intresting theme for me.
+         I do self-study on udemy.com and some other video-courses on Youtube.
+         My goal is to become a skillful developer and get well paid and amazing job.
+    </p>
+    <br>
+    <em>skills:</em>
+    <br>
+    Layout and styling:
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap 3-4</li>
+        <li>Flexbox</li>
+    </ul>
+    <br>
+    Programming languange:
+    <ul>
+        <li>Javascript basics</li>
+    </ul>
+    <br>
+    Framework:
+    <ul>
+        <li>React.js</li>
+        <li>VUE.js</li>
+    </ul>
+    <br>
+    Version control system:
+    <ul>
+        <li>Github</li>
+    </ul>
+    <br>
+    NPM, YARN usage
+    <em>Example of code:</em>
+    <p>React-component Button, that change the text on button:</p>
+    <textarea class="code" disabled>
+            import React from 'react'
+
+            class Button extends Component {
+                state = {
+                    isOpen: false
+                }
+                checkState = () => {
+                    if (!isOpen) {
+                        this.setState({
+                            isOpen: !isOpen
+                        })
+                    } 
+                }
+                render() {
+                    return(
+                        <React.Fragment>
+                            <button onClick={this.checkState()} >
+                                {this.state.isOpen ? 'Hide' : 'Open'}
+                            </button>
+                        </React.Fragment>
+                    )
+                }
+            }
+    </textarea>
+    <p>
+        <em>Expirience:</em>
+    </p>
+    <br>
+    My pet-projects:
+    <ul> 
+        <li>Photo gallery on HTML and Bootstrap 3: <a href="https://github.com/Greenpaw/photo-gallery">Link to repo Github</a></li>
+        <li>Zoohostel on HTML and Bootstrap 4: <a href="https://github.com/Greenpaw/zoohostel">Link to repo Github</a></li>
+        <li>Snake game on JS and canvas: <a href="https://github.com/Greenpaw/snake-game">Link to repo Github</a></li>
+        <li>Blog on react.js: <a href="https://github.com/Greenpaw/react-blog">Link to repo Github</a></li>
+    </ul>
+    <em>Education:</em>
+    <ul>
+        <li>Perm aviation college;</li>
+        <li>Perm National Research Polytechnic University;</li>
+        <li>Udemy course: ‘The Web Developer Bootcamp’;</li>
+        <li>React.js: <a href ="https://learn.javascript.ru/screencast/react">React.JS screencast</a></li>
+        <li>VUE.js: <a href = "https://scrimba.com/p/pXKqta/czPNaUr">Scrimba.com</a></li>
+    </ul>
+    <em>English level:</em>
+    A-2, pre-intermediate
+    <hr>
+    </div> 
+</body>
+</html>
