@@ -18,3 +18,8 @@ h2 {
     height: 364px;
     width: 647px;
 }
+
+.photo {
+    float: right;
+    margin-top: 22px;
+}
