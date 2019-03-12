@@ -1,0 +1,21 @@
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    margin: auto;
+    width: 1024px;
+    height: 1950px;
+}
+
+h2 {
+    display: inline;
+}
+
+.code {
+    margin: 0px;
+    height: 364px;
+    width: 647px;
+}
+;
